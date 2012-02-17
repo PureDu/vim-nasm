@@ -10,5 +10,5 @@ let b:ftplugin_nasm_loaded = 1
 
 " define match groups for nasm
 if exists('loaded_matchit')
-    let b:match_words = '%if:%elif:%else:%endif:%macro:%endmacro'
+    let b:match_words = '%if:%elif:%else:%endif,%macro:%endmacro'
 endif
